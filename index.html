@@ -41,6 +41,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
+  <!--- Slogan Text Style --->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -69,7 +74,8 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">About</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#team">About Us</a></li>
           <li><a class="nav-link scrollto" href="#services">Capabilities</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Projects</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -84,8 +90,8 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
       <h1><span>LandHomesTexas</span></h1>
-      <h3>Making your vision come true, that is what we do.
-      </h3>
+      <h3 class="slogan" style="font-family:Hurricane; font-weight:400; font-style:normal">Making your vision come true, that is what we do.</h3>
+      <br>
       <br>
       <h6>Established in 2023, LandHomesTexas burst onto the scene with a bold mission: <b><i>to revolutionize the homebuilding industry.</i></b></h6>
       <h6>Specializing in land acquisition, development, engineering, and consulting services, we're not just a company – we're your ultimate partner in building dreams.</h6>
@@ -100,6 +106,50 @@
     </div>
   </section><!-- End Hero -->
 
+  <!-- ======= Team Section ======= -->
+  <section id="team" class="team section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Our Team of Experts</h2>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-6 col-md-8 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+          <div class="member">
+            <div class="member-img">
+              <img src="./assets/img/team001-matt.png" class="img-fluid" alt="" style="width:20%">
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h4>Matt Riehs</h4>
+              <span>346-660-5150</span>
+              <span>Licensed Real Estate Broker</span>
+              <span>matthewriehs@yahoo.com</span>
+            <section class="matt-info">
+              <p>If you need any help with buyer representation, listing representation, a custom search, or comparative
+                market analysis on property values, I would be glad to serve you. I have over 12 years experience in real Estate
+                construction, subdivision development, and real estate investment. I was awarded 2020 Best of teh Best Contractor
+                in Jackson and Victoria counties. I own 3 companies involved in real estate in different capacities, I have
+                personally sourced, developed, and marketed 10 subdivisions since 2017. I have a thorough understanding of properties
+                and land from a homestead, developer, rancher, and investor perspective. If you are looking for an agent that understands
+                long term financial goals and planning, budgets, financing, negotiations, marketing and investment opportunities, I'd
+                appreciate the opportunity to assist you.
+              </p>
+
+            </section>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section><!-- End Team Section -->
+
   <main id="main">
     <!-- ======= Capabilities Section ======= -->
     <section id="services" class="services">
@@ -112,11 +162,12 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <div class="icon"><img src="./assets/img/capabities-icon-001.png" style="width:90%"></div>
               <h4><a href="">Engineering Design Consulting</a></h4>
               <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">Learn More</button>
             </div>
         <!--- Modal 01 --->
+        <div class="modal-container-1"></div>
         <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -125,9 +176,27 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
                 <div class="modal-body">
-                  <p>- In-depth lot planning</p>
-                  <p>- Comprehensive analysis of storm drainage, potable water, wastewater systems</p>
-                  <p>Our team utilizes advanced techniques to ensure optimal design, compliance, and sustainability.</p>
+                  <h7><b>Engineering Design Consulting</b></h7>
+                  <br>
+                    <h7>A. Pre Construction Planning</h7>
+                    <span>
+                      <p>&#8226 Preliminary Feasibility Studies</p>
+                      <p>&#8226 Zoning & Platting Services</p>
+                      <p>&#8226 Utility Planning</p>
+                      <p>&#8226 Cost Estimating</p>
+                      <p>Site and Utility Layouting</p>
+                      <p>Jurisdictional agency meeting assistance</p>
+                    </span>
+                  <br>
+                    <h7>B. Engineering Design Services</h7>
+                    <span>
+                      <p>&#8226 Utility and roadway design</p>
+                      <p>&#8226 Site grading</p>
+                      <p>&#8226 Design of drainage systems and detention ponds</p>
+                      <p>&#8226 Water resources management</p>
+                      <p>&#8226 Low impact design</p>
+                      <p>&#8226 Domestic wastewater system design</p>
+                    </span>
                 </div>
             </div>
           </div>
@@ -136,29 +205,121 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
+              <div class="icon"><img src="./assets/img/capabities-icon-002.png" style="width:90%"></div>
               <h4><a href="">Construction Project Management and Estimation</a></h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal2">Learn More</button>
             </div>
           </div>
+          <!--- Modal 02 --->
+          <div class="modal-container-2"></div>
+              <div class="modal fade" id="reg-modal2" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true" alt="2">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title" id="modal-title">Construction Project Management and Estimation</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                      <div class="modal-body">
+                        <h7><b>Construction Project Management and Estimation</b></h7>
+                        <br>
+                        <p>&#8226 Construction quantity survey and estimation</p>
+                        <p>&#8226 Bids and contractor evaluation</p>
+                        <p>&#8226 Construction scheduling</p>
+                        <p>&#8226 Construction staking</p>
+                        <p>&#8226 Site evaluation</p>
+                        <p>&#8226 Construction project management</p>   
+                      </div>
+                  </div>
+                </div>
+              </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <div class="icon"><img src="./assets/img/capabities-icon-003.png" style="width:90%"></div>
               <h4><a href="">Entitlement and Permitting</a></h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal3">Learn More</button>
             </div>
           </div>
+          <!--- Modal 03 --->
+          <div class="modal-container-2"></div>
+              <div class="modal fade" id="reg-modal3" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true" alt="3">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title" id="modal-title">Entitlement and Permitting</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                      <div class="modal-body">
+                        <h7><b>Entitlement and Permitting</b></h7>
+                        <br>
+                        <p>&#8226 Permitting services</p>
+                        <p>&#8226 Preliminary and final platting services</p>
+                        <p>&#8226 Permits for utility construction</p>
+                        <p>&#8226 Permits for site development</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
 
           <div class="col-lg-3 col-md-4 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
+              <div class="icon"><img src="./assets/img/capabities-icon-004.png" style="width:90%"></div>
               <h4><a href="">Real Estate Brokerage</a></h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal4">Learn More</button>
             </div>
           </div>
+           <!--- Modal 04 --->
+           <div class="modal fade" id="reg-modal4" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true" alt="2">
+             <div class="modal-dialog">
+               <div class="modal-content">
+                 <div class="modal-header">
+                   <h4 class="modal-title" id="modal-title">Real Estate Brokerage</h4>
+                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                   <div class="modal-body">
+                     <h7><b>Real Estate Brokerage</b></h7>
+                     <br>
+                     <p>&#8226 Listing properties</p>
+                     <p>&#8226 Marketing and advertising</p>
+                     <p>&#8226 Market analysis</p>
+                     <p>&#8226 Negotiations</p>
+                     <p>&#8226 Transaction facilitation</p>
+                     <p>&#8226 Compliance and documentation</p>
+                     <p>&#8226 Client representation</p>
+                     <p>&#8226 Property management</p>   
+                   </div>
+               </div>
+             </div>
+           </div>
 
           <div class="col-lg-3 col-md-4 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
+              <div class="icon"><img src="./assets/img/capabities-icon-005.png" style="width:90%"></div>
               <h4><a href="">Investments and Mortgage</a></h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal5">Learn More</button>
+            </div>
+          </div>
+          <!--- Modal 05 --->
+          <div class="modal fade" id="reg-modal5" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true" alt="2">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="modal-title">Investments and Mortgage</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                  <div class="modal-body">
+                    <h7><b>Investments and Mortgage</b></h7>
+                    <br>
+                    <p>&#8226 Project financing</p>
+                    <p>&#8226 Loan origination</p>
+                    <p>&#8226 Investment consultation</p>
+                    <p>&#8226 Risk management</p>
+                    <p>&#8226 Portfolio management</p>
+                    <p>&#8226 Financial planning</p>
+                    <p>&#8226 Market analysis</p>
+                    <p>&#8226 Regulatory compliance</p>   
+                  </div>
+              </div>
             </div>
           </div>
       </div>
@@ -336,95 +497,6 @@
 
       </div>
     </section><!-- End Portfolio Section -->
-
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Team</h2>
-          <h3>Our Hardworking <span>Team</span></h3>
-          <p>We're featuring the main men of the firm.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <div class="member-img">
-                <img src="./assets/img/03.01.engrmatt.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Engr Matt</h4>
-                <span>Founding Manager</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="member-img">
-                <img src="./assets/img/03.02.engrjim.JPG" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Engr. Jim</h4>
-                <span>Operations Manager</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="member-img">
-                <img src="./assets/img/03.05.archmitch.JPG" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Arch. Dina</h4>
-                <span>Head, Architectural Design</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="member">
-              <div class="member-img">
-                <img src="./assets/img/03.03.engrmike.JPG" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Engr. Mike</h4>
-                <span>Head, Engineering Design</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
